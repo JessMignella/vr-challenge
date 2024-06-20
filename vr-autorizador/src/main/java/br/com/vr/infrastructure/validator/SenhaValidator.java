@@ -1,14 +1,13 @@
-package br.com.vr.domain.validator;
-
+package br.com.vr.infrastructure.validator;
 
 import br.com.vr.domain.model.Cartao;
 import org.springframework.stereotype.Component;
 
 @Component
-public class SaldoValidator implements TRansacaoValidator {
+public class SenhaValidator implements TRansacaoValidator {
 
     @Override
     public String validar(Cartao cartao, String senha, double valor) {
-        return cartao.getSaldo() < valor ? "SALDO_INSUFICIENTE" : null;
+        return !cartao.getSenha().equals(senha) ? "SENHA_INVALIDA" : null;
     }
 }

@@ -1,4 +1,4 @@
-package br.com.vr.domain.validator;
+package br.com.vr.infrastructure.validator;
 
 import br.com.vr.domain.model.Cartao;
 import br.com.vr.infrastructure.repository.CartaoRepository;

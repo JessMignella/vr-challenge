@@ -66,10 +66,25 @@ Request Body:
 
         GET /cartoes/{numeroCartao}
 
+### Transações
+- Autoriza Transação
+        POST /transacoes
+
+Request Body:
+
+```json
+
+{
+  "numeroCartao": "1234567890123456",
+  "senhaCartao": "1234",
+  "valor": 20.00
+} 
+```
+
 ### Testes
 Testes Unitários
 Para rodar os testes unitários, utilize o comando:
 
-sh
-Copiar código
-./mvnw test
+````sh
+  ./mvnw test
+````

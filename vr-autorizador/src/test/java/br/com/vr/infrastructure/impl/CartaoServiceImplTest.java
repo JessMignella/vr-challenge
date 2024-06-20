@@ -1,10 +1,9 @@
 package br.com.vr.infrastructure.impl;
 
 import br.com.vr.domain.model.Cartao;
-import br.com.vr.domain.service.CartaoService;
-import br.com.vr.domain.validator.CartaoValidator;
-import br.com.vr.domain.validator.SaldoValidator;
-import br.com.vr.domain.validator.SenhaValidator;
+import br.com.vr.infrastructure.validator.CartaoValidator;
+import br.com.vr.infrastructure.validator.SaldoValidator;
+import br.com.vr.infrastructure.validator.SenhaValidator;
 import br.com.vr.infrastructure.repository.CartaoRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

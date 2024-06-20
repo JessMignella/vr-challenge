@@ -2,6 +2,7 @@ package br.com.vr.domain.validator;
 
 import br.com.vr.domain.model.Cartao;
 import br.com.vr.infrastructure.repository.CartaoRepository;
+import br.com.vr.infrastructure.validator.CartaoValidator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;

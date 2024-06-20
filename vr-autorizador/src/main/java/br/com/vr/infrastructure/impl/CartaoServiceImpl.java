@@ -2,9 +2,8 @@ package br.com.vr.infrastructure.impl;
 
 import br.com.vr.domain.model.Cartao;
 import br.com.vr.domain.service.CartaoService;
-import br.com.vr.domain.validator.TRansacaoValidator;
+import br.com.vr.infrastructure.validator.TRansacaoValidator;
 import br.com.vr.infrastructure.repository.CartaoRepository;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,6 +1,7 @@
 package br.com.vr.domain.validator;
 
 import br.com.vr.domain.model.Cartao;
+import br.com.vr.infrastructure.validator.SenhaValidator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
