@@ -68,7 +68,8 @@ Request Body:
 
 ### Transações
 - Autoriza Transação
-        POST /transacoes
+  
+       POST /transacoes
 
 Request Body:
 
